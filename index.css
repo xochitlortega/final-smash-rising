@@ -1,0 +1,108 @@
+/*Mobile*/
+@media only screen and (max-width: 600px) {
+    body {
+    background-color: #D4DDE1;
+    
+}
+   img{
+  display: inline-block;
+  width: 50%;  
+  height: auto;
+  border-radius: 50%;
+}
+    nav{
+    text-align: right;
+    font-size: 20px;
+    display: block;
+    padding: 14px 16px;
+    float: right;
+    }
+    
+    #header{
+    background: #AA4B41;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    }
+    
+    a:hover{ 
+    background-color: #335252;
+    padding: 14px 16px;
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 601px) {
+    
+body{ 
+  background-color:#D4DDE1;
+  font-family: 'Markazi Text', serif;
+  text-align: center; 
+   }
+#header{
+    background: #AA4B41;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    }
+nav{
+    text-align: right;
+    font-size: 20px;
+    display: block;
+    padding: 12px 14px;
+    float: right;
+    text-decoation: underline;
+    }
+a{
+    margin: 0px;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Slabo 27px', serif;
+    }
+a:hover{ 
+    background-color: #335252;
+    padding: 14px 16px;
+    }
+nav > .active{
+    background-color: #335252;
+    padding: 14px 16px;
+}
+img{
+   display: inline-block;
+   margin: 90px;
+   width: 30%;  
+   height:auto;
+   border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+h1{
+    margin: 20px;
+    color: #2D3033;
+    font-size: 30px;
+    text-align: center;
+    }
+h2{
+  color: #AA4B41;
+  font-size: 80;
+  margin: 10m;
+}
+h3{
+  color: #AA4B41;
+  font-size: 80;
+}
+#smash{
+    background-color: #D4DDE1;;
+    color: #335252;
+    padding: 14px 16px;
+    text-decoration-line: underline;
+}
+    #google_translate_element{
+    margin: 14px;
+    margin-top: -10px;
+    margin-left:-650px;
+    text-align: left;
+    height: 9px;
+    }
+}
